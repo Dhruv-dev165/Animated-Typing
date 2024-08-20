@@ -1,0 +1,2 @@
+# Animated-Typing
+Text animation 
