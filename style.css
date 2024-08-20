@@ -1,0 +1,33 @@
+html {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+body {
+    color: blue;
+    font-family: "Anonymous pro monospace";
+    background-color: rgba(20, 20, 20);
+}
+
+.container {
+    display: inline-block;
+    margin: 2%;
+}
+
+.text {
+    overflow: hidden;
+    font-size: 3.6rem;
+    font-weight: 700;
+    border-right: 0.15em solid white;
+    white-space: nowrap;
+    animation: typing 5s steps(40, end) infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
